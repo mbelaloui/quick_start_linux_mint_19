@@ -5,6 +5,17 @@
 <p>lspci | grep -i network</p>
 <p>sudo apt install bcmwl-kernel-source</p>
 
+<h1>zsh</h1>
+<p>sudo apt install git</p>
+
+<h1>git</h1>
+<p>sudo apt install git</p>
+
+<h2>oh_my_zsh</h2>
+<p>sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"</p>
+
+<h1>Valgrind</h1>
+<p>sudo apt install valgrind</p>
 
 <h1>install docker</h1>
 <p>#delet old versions</p>
