@@ -38,3 +38,4 @@
 
 <p>#Add your user to the docker group.</p>
 <p>sudo usermod -aG docker $USER</p>
+<p>relog</p>
