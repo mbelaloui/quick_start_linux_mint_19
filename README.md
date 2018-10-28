@@ -39,3 +39,7 @@
 <p>#Add your user to the docker group.</p>
 <p>sudo usermod -aG docker $USER</p>
 <p>relog</p>
+
+
+<h3>Sources "</h3>
+<p>https://docs.docker.com/install/linux/docker-ce/ubuntu/#uninstall-docker-ce</p>
