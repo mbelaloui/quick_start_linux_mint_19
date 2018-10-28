@@ -19,7 +19,7 @@
 <p>#Add Docker’s official GPG key</p>
 <p>curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -</p>
 
-<p>Up the stable repository.	 Change the 	>Stretch/Trusty/Xenial/ bionic<</p>
+<p>#Up the stable repository of Docker. NB : Change the $V variable relative to the version on which your system is based for linux mint ==> Stretch/Trusty/Xenial/ bionic</p>
 <p>V=bionic</p>
 <p>sudo add-apt-repository "deb [arch=amd64]https://download.docker.com/linux/ubuntu $V stable"</p>
 
@@ -32,7 +32,7 @@
 <p>#teste docker</p>
 <p>#sudo docker run hello-world</p>
 
-<p>#to use the docker withe out the sudo we have to add it to the user groupe</p>
+<p>#to use the docker without the sudo we have to add it to the user group</p>
 <p>#Create the docker group.</p>
 <p>sudo groupadd docker</p>
 
